@@ -30,7 +30,7 @@ function Achievements(){
                         <p>Event Bookings</p>
                     </div>
                     <div>
-                        <img className="h-[25px] w-[25px]" src=".\src\assets\Icon3.png" alt="" />
+                        <img className="h-[25px] w-[25px]" src={Icon3} alt="" />
                         <p>828,867</p>
                         <p>Clubs</p>
                     </div>
