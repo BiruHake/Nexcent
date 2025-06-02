@@ -1,6 +1,7 @@
 import Icon4 from '../assets/Icon4.png';
 import Icon5 from '../assets/Icon5.png';
 import Icon2 from '../assets/Icon2.png';
+import Icon3 from '../assets/Icon3.png';
 function Achievements(){
     return(
         <div className="max-w-[1094px] mx-auto py-12">
