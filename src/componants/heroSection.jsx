@@ -1,3 +1,4 @@
+import logo from '../assets/Ilustration.png';
 export default function HeroSection(){
     return(
         <div>
@@ -13,7 +14,7 @@ export default function HeroSection(){
                     </div>
                  </div>
                  <div className="flex justify-center items-center mt-12">
-                     <img className="object-cover" src=".\src\assets\Ilustration.png" alt="image" />
+                     <img className="object-cover" src={logo} alt="image" />
                  </div>
             </div>
         </div>

@@ -1,3 +1,4 @@
+import Frame2 from '../assets/Unlock1.png';
 function Pixelgrade2(){
     return(
         <div className="max-w-[1094px] mx-auto flex flex-col md:flex-row">
@@ -9,7 +10,7 @@ function Pixelgrade2(){
                <button className="border-solid border-2 border-green-400 px-8 py-1 rounded-sm text-white font-medium bg-green-500 mt-4">Learn More</button>
             </div>
               <div className="">
-                <img className="object-cover" src="./src/assets/Unlock1.png" alt="" />
+                <img className="object-cover" src={Frame2} alt="" />
             </div>
         </div>
     )

@@ -1,3 +1,8 @@
+import logo1 from '../assets/Logo1.png';
+import logo2 from '../assets/Logo2.png';
+import logo3 from '../assets/Logo3.png';
+import logo4 from '../assets/Logo4.png';
+import logo5 from '../assets/Logo5.png';
 function Our_client(){
    return(
     <div className=" max-w-[1094px] mx-auto px-12 py-4">
@@ -6,11 +11,11 @@ function Our_client(){
             <p className="font-medium">We have been working with some Fortune 500+ clients</p>
          </div>
           <div className="flex justify-between mt-8">
-                <img className="h-[30px] w-[30px] object-cover" src=".\src\assets\Logo1.png" alt="" />
-                <img className="h-[30px] w-[30px] object-cover" src=".\src\assets\Logo2.png" alt="" />
-                <img  className="h-[30px] w-[30px] object-cover" src=".\src\assets\Logo3.png" alt="" />
-                <img className="h-[30px] w-[30px] object-cover" src=".\src\assets\Logo4.png" alt="" />
-                <img className="h-[30px] w-[30px] object-cover" src=".\src\assets\Logo5.png" alt="" />
+                <img className="h-[30px] w-[30px] object-cover" src={logo1} alt="" />
+                <img className="h-[30px] w-[30px] object-cover" src={logo2} alt="" />
+                <img  className="h-[30px] w-[30px] object-cover" src={logo3} alt="" />
+                <img className="h-[30px] w-[30px] object-cover" src={logo4} alt="" />
+                <img className="h-[30px] w-[30px] object-cover" src={logo5} alt="" />
             </div>
     </div>
    )

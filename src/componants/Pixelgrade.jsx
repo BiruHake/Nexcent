@@ -1,8 +1,9 @@
+import Frame from '../assets/Frame1.png';
 function Pixelgrade(){
     return(
         <div className="max-w-[1094px] mx-auto flex flex-col md:flex-row">
             <div className="">
-                <img className="object-cover" src="./src/assets/Frame1.png" alt="" />
+                <img className="object-cover" src={Frame} alt="" />
             </div>
             <div className="flex flex-col justify-center items-center md:w-[50%] px-8">
                 <h1 className="text-xl font-semibold">The unseen of spending three years at Pixelgrade</h1>

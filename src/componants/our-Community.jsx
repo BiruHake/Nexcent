@@ -1,3 +1,6 @@
+import Icon1 from '../assets/Icon1.png';
+import Icon2 from '../assets/Icon2.png';
+import Icon3 from '../assets/Icon3.png';
 function Over_Community(){
     return(
         <>
@@ -9,17 +12,17 @@ function Over_Community(){
             </div>
             <div className="flex flex-col justify-center items-center gap-14 lg:flex-row">
                 <div className="flex flex-col justify-center items-center gap-y-2 p-[20px] my-[30px] shadow-2xl">
-                    <img className="h-[48px] w-[49px]" src=".\src\assets\Icon1.png" alt="" />
+                    <img className="h-[48px] w-[49px]" src={Icon1} alt="" />
                     <h1 className="font-bold text-lg">Membership Organisations</h1>
                     <p>Our membership management software provides full automation of membership renewals and payments</p>
                 </div>
                 <div className="flex flex-col justify-center items-center gap-y-2 p-[20px] m-[8px] shadow-2xl">
-                    <img className="h-[48px] w-[49px]" src=".\src\assets\Icon2.png" alt="" />
+                    <img className="h-[48px] w-[49px]" src={Icon2} alt="" />
                     <h1 className="font-bold text-lg">National Associations</h1>
                     <p>Our membership management software provides full automation of membership renewals and payments</p>
                 </div>
                 <div className="flex flex-col justify-center items-center gap-y-2 p-[20px] m-[8px] shadow-2xl bg-gray-200">
-                    <img className="h-[48px] w-[49px]" src=".\src\assets\Icon3.png" alt="" />
+                    <img className="h-[48px] w-[49px]" src={Icon3} alt="" />
                     <h1 className="font-bold text-lg">Clubs And Groups</h1>
                     <p>Our membership management software provides full automation of membership renewals and payments</p>
                 </div>
