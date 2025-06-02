@@ -1,9 +1,9 @@
-
+import logo from '../assets/Icon.png';
 function Navbar(){
     return(
             <div className="h-[70px] w-full flex justify-between items-center px-12 xl:px-[120px]">
                <div className="flex flex-row gap-2 text-xl">
-                <img src="./src/assets/Icon.png" alt="image" />
+                <img src={logo} alt="image" />
                 <h1 className="font-bold text-2xl">Nexcent</h1>
                </div>
                <ul className="hidden lg:flex gap-8">
